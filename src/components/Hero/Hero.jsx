@@ -20,14 +20,49 @@ const Hero = () => {
             <span>Your</span>
           </div>
           <div>
-            <span>IDEAL</span>
-            <span>BODY</span>
+            <span>IDEAL BODY</span>
+          
+            <div>
+              <span id="nopro">
+              No prior knowledge of react is required to follow this project. The project is surely suitable for beginners.
+              </span>
+            </div>
+          </div>
+
+
+          <div className="figures">
+            <div>
+              <span>+140</span>
+              <span>expert coachs</span>
+            </div>
+            <div>
+            <span>+978</span>
+              <span>members joins</span>
+            </div>
+            <div>
+            <span>+50</span>
+              <span>Program</span>
+            </div>
+
           </div>
         </div>
 
+        <div className="hero-buttons">
+          <button className='btn'>Get Start</button>
+          <button className='btn'>Learn</button>
+        </div>
+      </div>
+
+      <div className="right-h">
+        <button className="btn">Join </button>
+        <div className="heart-rate">
+          <img src="heart.jpg" alt="" />
+          <span>Heart Rate</span><span>116bm</span>
+        </div>
+
+        <img src='hero.png' alt="" className="hero-image" />
 
       </div>
-      <div className="right-h">right</div>
     </div>
   );
 };
