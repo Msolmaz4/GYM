@@ -14,3 +14,20 @@
     text-transform: uppercase;
     font-style: italic;
 }
+.program-cate{
+    display: flex;
+    gap: 1rem;
+}
+.category{
+    display: flex;
+    flex-direction: column;
+    background-color: gray;
+    padding: 2rem;
+    gap: 1rem;
+    color: white;
+    justify-content: space-between;
+}
+
+.category:hover{
+    background-color: orange;
+}
