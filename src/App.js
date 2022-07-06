@@ -4,6 +4,7 @@ import Hero from './components/Hero/Hero';
 import Plans from './components/Plans/Plans';
 import Programs from './components/Programs/Programs';
 import Reasons from './components/Reasons/Reasons';
+import Testia from './components/Testia/Testia';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Programs/>
         <Reasons/>
         <Plans/>
+        <Testia/>
     </div>
   );
 }

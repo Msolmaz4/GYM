@@ -1,0 +1,23 @@
+.testia1{
+    display: flex;
+    gap: 1rem;
+    padding: 0 2rem;
+}
+.sol{
+    display: flex;
+    flex: 1 1;
+    gap: 2rem;
+    flex-direction:column;
+    text-transform: uppercase;
+    color: white;
+}
+ .sol>:nth-child(1){
+    color: orange;
+    font-weight: bold;
+ }
+.sol>:nth-child(),
+.sol>:nth-child(){
+    font-weight: bold;
+    font-size: 3rem;
+
+}
