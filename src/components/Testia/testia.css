@@ -15,9 +15,54 @@
     color: orange;
     font-weight: bold;
  }
-.sol>:nth-child(),
-.sol>:nth-child(){
+.sol>:nth-child(2),
+.sol>:nth-child(3){
     font-weight: bold;
     font-size: 3rem;
 
+}
+.sol>:nth-child(4){
+    text-transform: none;
+    text-align: justify;
+    letter-spacing: 2px;
+    line-height: 40px;
+}
+.sag{
+    flex: 1;
+    position: relative;
+}
+.sag>img{
+    position: absolute;
+    width: 17rem;
+    height: 20rem;
+    object-fit: cover;
+    right: 8rem;
+    top: 2rem;
+}
+.sag>:nth-child(1){
+    position: absolute;
+    width: 17rem; height: 20rem;
+    border: 2px solid orange;
+    background-color: transparent;
+    right: 9rem;
+    top: 0.9rem;
+}
+.sag>:nth-child(2){
+    position: absolute;
+    width: 17rem; height: 19rem;
+    border: 2px solid orange;
+    background-color: orange;
+    right: 7rem;
+    top: 4rem;
+}
+.arrows{
+    display: flex;
+    gap: 1rem;
+    position:absolute;
+    left: 3rem;
+    bottom: 1rem;
+}
+.arrows>img{
+    width: 1.5rem;
+    cursor: pointer;
 }

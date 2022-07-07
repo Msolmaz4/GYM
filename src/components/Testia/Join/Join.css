@@ -1,0 +1,38 @@
+.Join{
+    display: flex;
+    padding: 0 2rem;
+    gap: 10rem;
+}
+.rwar{
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+}
+.rwar>hr{
+    position: absolute;
+    width: 10.5rem;
+    border: 2px solid orange;
+    border-radius: 20%;
+    margin: -10px 0;
+}
+.rwar>div{
+    display: flex;
+    gap: 1rem;
+}
+.lwar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.email-container{
+    display: flex;
+    gap: 3rem;
+    padding: 1rem 2rem;
+    background-color: gray;
+}
+.btn{
+    background-color: orange;
+    color: white;
+}
