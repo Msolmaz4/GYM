@@ -1,16 +1,24 @@
 import React from "react";
 import "./Hero.css";
 import Header from "../Header/Header";
+import {motion} from 'framer-motion'
 
 const Hero = () => {
+  const trans ={type :'spring' , duration :3}
+
+
   return (
     <div className="hero">
+      <div className="blur hero-blur"></div>
       <div className="lift-h">
         <Header />
 
         <div className="the-best-ad">
           
-            <div className="the"></div>
+          
+          <div className="the"></div>
+
+            
             <span>the best fitness club in the towns</span>
             
         </div>
