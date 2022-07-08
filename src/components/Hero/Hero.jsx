@@ -1,10 +1,10 @@
 import React from "react";
 import "./Hero.css";
 import Header from "../Header/Header";
-import {motion} from 'framer-motion'
+//import {motion} from 'framer-motion'
 
 const Hero = () => {
-  const trans ={type :'spring' , duration :3}
+ // const trans ={type :'spring' , duration :3}
 
 
   return (
